@@ -103,14 +103,14 @@ def main():
 				room_type_reserved, lead_time, arrival_year, arrival_month, arrival_date, 
 				market_segment_type, repeated_guest, no_of_previous_cancellations, no_of_previous_bookings_not_canceled, 
 				avg_price_per_room, no_of_special_requests)
-	if result == 0:
+	if result == '0':
 		res = 'Not Cancelled'
-	elif result == 1:
+	elif result == '1':
 		res = 'Cancelled'
 	else:
 		None
-	st.success('The output is {0}'.format(result))
-	st.success('The Reservation is', res)
+	st.success('The output is {0}'.format(result),res)
+	
 	
 if __name__=='__main__':
 	main()
