@@ -109,8 +109,8 @@ def main():
 		res = 'Cancelled'
 	else:
 		None
-st.success('The output is {0}'.format(result))
-st.success('The Reservation is', res)
+	st.success('The output is {0}'.format(result))
+	st.success('The Reservation is', res)
 	
 if __name__=='__main__':
 	main()
