@@ -104,13 +104,13 @@ def main():
 				market_segment_type, repeated_guest, no_of_previous_cancellations, no_of_previous_bookings_not_canceled, 
 				avg_price_per_room, no_of_special_requests)
 	
-	st.success('The output is {0}'.format(result))
+# 	st.success('The output is {0}'.format(result))
 	if result == 0:
-		res = 'Not Cancelled'
+		result = 'Not Cancelled'
 	elif result == 1:
-		res = 'Cancelled'
+		result = 'Cancelled'
 
-	st.success('The output is {0}'.format(res))
+	st.success('The output is {0}'.format(result))
 	
 	
 if __name__=='__main__':
