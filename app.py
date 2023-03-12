@@ -110,7 +110,7 @@ def main():
 	elif result == 1:
 		result = 'Cancelled'
 
-	st.success('The output is {0}'.format(result))
+	st.success('The Reservation is {0}'.format(result))
 	
 	
 if __name__=='__main__':
