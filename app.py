@@ -105,12 +105,11 @@ def main():
 				avg_price_per_room, no_of_special_requests)
 	
 	st.success('The output is {0}'.format(result))
-	if result == '0':
+	if result == 0:
 		res = 'Not Cancelled'
-	elif result == '1':
+	elif result == 1:
 		res = 'Cancelled'
-	else:
-		None
+
 	st.success('The output is {0}'.format(res))
 	
 	
