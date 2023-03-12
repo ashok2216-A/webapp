@@ -34,7 +34,7 @@ def main():
 	st.title("Hotel Reservation Prediction")
 	html_temp = """
 	<div style ="background-color:gry;padding:13px">
-	<h1 style ="color:white;text-align:center;">Streamlit Hotel Reservation Prediction ML App </h1>
+	<h1 style ="color:gray;text-align:center;">Streamlit Hotel Reservation Prediction ML App </h1>
 	</div>
 	"""
 	st.markdown(html_temp, unsafe_allow_html = True)
