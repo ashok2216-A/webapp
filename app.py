@@ -109,7 +109,8 @@ def main():
 			res = 'Cancelled'
 		else:
 			None
-	st.success('The output is {0}'.format(result), res)
+	st.success('The output is {0}'.format(result))
+	st.success('The output is {0}'.format(res))
 	
 if __name__=='__main__':
 	main()
